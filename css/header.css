@@ -1,0 +1,23 @@
+.header__block {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.header__list-items {
+    margin-left: 20px;
+}
+
+.fas {
+    background: white;
+    color: rgb(74, 202, 23);
+    font-size: 20px;
+}
+

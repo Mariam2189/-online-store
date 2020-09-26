@@ -1,0 +1,46 @@
+.footer {
+    position: relative;
+}
+
+.footer__block {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #333333;
+    background-color: rgb(66, 65, 65);
+}
+
+.footer__developer h3 {
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.footer__social {
+    position: absolute;
+    right: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer__solial-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__social-items {
+    margin-left: 10px;
+}
+
+.footer__solial-list i {
+    color: rgb(74, 202, 23);
+    font-size: 20px;
+}
+
+.text {
+    color: rgb(74, 202, 23);
+    font-size: 16px;
+}

@@ -1,0 +1,34 @@
+.section-news {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.section-news__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-news__list-items {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.section-news__list-items a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.section-news__list-items h3 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.section-news__list-items p {
+    font-size: 16px;
+    color: #706e6e;
+    padding: 10px;
+}

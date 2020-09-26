@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://site.kz/css/reset.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <title></title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__block">
+            <div class="header__block-logo">
+                <a href="#"><img src="./img/logo.png" alt="logo" class="header__block-image" width="100" height="90"></a>
+            </div>
+            <div class="header__interfase">
+                <ul class="header__list">
+                    <li class="header__list-items">
+                        <form action="">
+                            <input type="text" class="input" placeholder="Поиск">
+                            <button class="button-search" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                    </li>
+                    <li class="header__list-items"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                    <li class="header__list-items"><a href="#"><i class="fas fa-user-circle"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__block">
+            <ul class="main__list">
+                <li class="main__list-itams active"><a href="./index.html">Главная</a></li>
+                <li class="main__list-itams"><a href="#">Уход за лицом</a></li>
+                <li class="main__list-itams"><a href="#">Уход за телом</a></li>
+                <li class="main__list-itams"><a href="./shop.html">О магазине</a></li>
+                <li class="main__list-itams"><a href="#">Контакты</a></li>
+                <li class="main__list-itams"><a href="./delivery.html">Доставка и оплата</a></li>
+            </ul>
+        </div>
+        <div class="sim-slider container">
+            <ul class="sim-slider-list">
+              <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li> <!-- это экран -->
+              <li class="sim-slider-element"><img src="./img/organicheskaya-kosmetika-dlya-volos-maski-i-brendy-5.jpg" width="800" height="500" alt="0" ></li>
+              <li class="sim-slider-element"><img src="./img/log.png" alt="1" width="800" height="500"></li>
+              <li class="sim-slider-element"><img src="./img/ROS.png" alt="2" width="800" height="500"></li>
+            </ul>
+            <div class="sim-slider-arrow-left"></div>
+            <div class="sim-slider-arrow-right"></div>
+            <div class="sim-slider-dots"></div>
+        </div> 
+        <div class="section-news">
+            <ul class="section-news__list">
+                <li class="section-news__list-items">
+                    <a href="#"><img src="./img/soveti_kosm.jpg" alt="" width="300" height="200">
+                    <h3>Уход за кожей советы косметологов</h3></a>
+                    <hr>
+                    <p>Поэтапный уход за кожей включает в себя умывание, тонизирование, 
+                        питание и увлажнение, только оставленная ранее без внимание шея 
+                        теперь требует особой заботы...</p>
+                </li>
+                <li class="section-news__list-items">
+                    <a href="#"><img src="./img/professionalnaya-kosmetika-i-obychnaya.jpg" alt="" width="300" height="200">
+                    <h3>Профессиональная или обычная?</h3></a>
+                    <hr>
+                    <p>Вы знаете самый частый вопрос, который задают девушки косметологам? 
+                        Он звучит так: «Какую выбрать косметику – профессиональную или обычную...</p>
+                </li>
+                <li class="section-news__list-items">
+                    <a href="#"><img src="./img/735f6a97d45bac21f8df0d5a77a4f039.jpg" alt="" width="300" height="200">
+                    <h3>Типы и состояние кожи</h3></a>
+                    <hr>
+                    <p>Кожа неразрывно связана с жизнедеятельностью всего организма и отражает
+                         состояние здоровья человека. Неповрежденная кожа служит надежным барьером,
+                         защитой от вредных воздействий окружающей среды...</p>
+                </li>
+                <li class="section-news__list-items">
+                    <a href="#"><img src="./img/1200x630_0xc0a839a2_9396322271495215696.jpeg" alt="" width="300" height="200">
+                    <h3>Деньги на ветер или салонные процедуры которые не работают</h3></a>
+                    <hr>
+                    <p>Современная индустрия красоты готова предложить массу услуг, 
+                        призванных превратить нас в настоящих королев!...</p>
+                </li>
+            </ul>
+        </div>   
+    </main>
+    <footer class="footer">
+        <div class="footer__block">
+            <div class="footer__developer">
+                <h3 class="footer__heading">Разработано: marypopova2@gmail.com</h3>
+            </div>
+            <div class="footer__social">
+                <ul class="footer__solial-list">
+                    <li class="footer__social-items text">Мы в соцсетях:</li>
+                    <li class="footer__social-items"><a href="#"><i class="fab fa-vk"></i></a></li>
+                    <li class="footer__social-items"><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+                    <li class="footer__social-items"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="footer__social-items"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="form-entry">
+        <form class="form-block">
+            <h2>Вход в личный кабинет</h2>
+            <fieldset class="inputs">
+                <input type="text" class="username" placeholder="Логин" autofocus="" required="">
+                <input type="password" class="password" placeholder="Пароль" required="">
+            </fieldset>
+            <!-- <fieldset class="actions">
+                <input type="submit" class="submit" value="Войти">
+                <a href="#">Забыли пароль?</a>
+                <a href="#">Зарегистрироваться</a>
+            </fieldset> -->
+        </form>
+        <div class="form-button">
+            <button class="form-button__btn">Вход</button>
+        </div>
+        <div class="form-link">
+            <a href="#">Забыли пароль?</a>
+            <a href="#">Зарегистрироваться</a>
+        </div>
+    </div>
+    <div class="password-recovery">
+        <form class="password-recovery__block">
+            <h2>Восстановить пароль</h2>
+            <fieldset class="password-recovery__inputs">
+                <input type="text" class="password-recovery__input" placeholder="Телефон или email" autofocus="" required="">
+            </fieldset>
+        </form>
+        <div class="password-recovery__button">
+            <button class="password-recovery__btn">Отправить</button>
+        </div>
+    </div>
+    <div class="form-registration">
+        <form class="form-registration__block">
+            <h2>Зарегистрироваться</h2>
+            <fieldset class="form-registration__inputs">
+                <input type="text" class="form-registration__useremail" placeholder="Введите Вашу почту" autofocus="" required="">
+                <input type="text" class="form-registration__username" placeholder="Ваше Имя" required="">
+                <input type="text" class="form-registration__usersurname" placeholder="Ваша Фамилия" required="">
+                <input type="date" class="form-registration__date" placeholder="" required="">
+                <input type="password" class="form-registration__password" placeholder="Создайте пароль" required="">
+                <input type="password" class="form-registration__password-repeat" placeholder="Повторите пароль" required="">
+            </fieldset>
+        </form>
+        <div class="form-registration__button">
+            <button class="form-registration__btn">Отправить</button>
+        </div>
+    </div>
+    <div class="baskets">
+        <div class="baskets__col">
+            <div class="basket__container">
+                <h4>Корзина
+                    <span class="basket__price">
+                        <i class="fas fa-shopping-cart"></i><b>4</b>
+                    </span>
+                </h4>
+                <p><a href="#">Продукт 1</a>
+                    <span class="price">160p</span>
+                </p>
+                <p><a href="#">Продукт 2</a>
+                    <span class="price">160p</span>
+                </p>
+                <p><a href="#">Продукт 3</a>
+                    <span class="price">160p</span>
+                </p>
+                <p><a href="#">Продукт 4</a>
+                    <span class="price">160p</span>
+                </p>
+                <hr>
+                <p>Итого: <span class="price"><b>640р</b></span></p>
+            </div>
+            <div class="basket">
+                <form action="" class="basket__form">
+                    <h3>Заполните форму</h3>
+                    <input type="text" class="basket__form-name" name="name" placeholder="Имя">
+                    <input type="text" class="basket__form-surname" name="surname" placeholder="Фамилия">
+                    <input type="text" class="basket__form-email" name="useremail" placeholder="email">
+                    <input type="text" class="basket__form-country" name="country" placeholder="Страна">
+                    <input type="text" class="basket__form-city" name="city" placeholder="Город">
+                    <input type="text" class="basket__form-index" name="index" placeholder="Индекс">
+                    <label for="">
+                        <input type="checkbox" checked="checked" name="delivery">
+                        Доставка курьером по указанному адресу
+                    </label>
+                    <label for="">
+                        <input type="checkbox" checked="checked"  name="delivery">
+                        Доставка в ближайший пункт самовызова
+                    </label>
+                    <input type="submit" value="Продолжить оформления заказа" class="basket__form-btn">
+                </form>
+            </div>
+            <div class="basket__payment">
+                <form action="" class="basket__payment-form">
+                    <h3>Способ оплаты</h3>
+                    <label for="">
+                        <input type="checkbox" checked="checked"  name="delivery">
+                        Оплатить online
+                    </label>
+                    <label for="">
+                        <input type="checkbox" checked="checked"  name="delivery">
+                        Оплатить при получении
+                    </label>
+                </form>
+            </div>
+            <div class="basket__pay-online">
+                <form action="" class="basket__pay-form">
+                    <h3>Оплата картой</h3>
+                    <input type="text" class="basket__pay-numbercart" name="numbercart" placeholder="7777 7777 7777 7777">
+                    <input type="text" class="basket__pay-name" name="username" placeholder="IVAN IVANOV">
+                    <input type="date" class="basket__pay-date" name="cartdate" placeholder="">
+                    <input type="text" class="basket__pay-id" name="numberid" placeholder="077">
+                </form>
+                <div class="basket__pay-button">
+                    <button class="basket__pay-btn">Оплатить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/slider.js"></script>
+    <script src="./js/search.js"></script>
+</body>
+</html>

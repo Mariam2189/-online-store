@@ -1,0 +1,49 @@
+.form-registration {
+    width: 400px;
+    height: 600px;
+    position: relative;
+    background-color: rgb(119, 117, 117);
+    border-radius: 5px;
+    /*отступы временно*/
+    margin: 20px 0 20px 100px;
+}
+
+.form-registration__block h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.form-registration__inputs {
+    text-align: center;
+}
+
+.form-registration__inputs input {
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+}
+
+.form-registration__button {
+    text-align: center;
+    
+}
+
+.form-registration__btn {
+    width: 200px;
+    height: 40px;
+    margin: 20px 0 20px 0;
+    border-radius: 3px;
+    background-color: rgb(74, 202, 23);
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
