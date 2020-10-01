@@ -1,0 +1,40 @@
+.shop {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop h3 {
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #7e7d7d;
+    padding: 20px;
+}
+
+.shop p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.shop__heading-image {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 20%;
+}
+
+.shop__heading-img {
+    width: 300px;
+    display: flex;
+    padding-left: 10%;
+}
+
+.shop__heading-im1 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 25%;
+}
+
+.shop__heading-im2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 25%;
+}

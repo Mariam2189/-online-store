@@ -1,0 +1,15 @@
+.contacts__block h3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.cont__items {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.cont__items span {
+    font-weight: normal;
+}
